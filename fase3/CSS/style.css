@@ -1,0 +1,38 @@
+header{
+    background-color: dodgerblue;
+    color: ghostwhite;
+}
+nav{
+    color: ghostwhite;
+     background-color: dodgerblue;
+  }
+  section{
+    grid-column:1/4;
+    background-color: dodgerblue;
+   }
+
+
+h1{
+  background-color: dodgerblue;
+ color: ghostwhite;
+ }
+
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: floralwhite;
+ }
+
+  aside{ 
+      grid: column 4/5;
+  }
+  p{
+    color: ghostwhite;
+ }
+ footer{ 
+    background-color: floralwhite;
+    color: dodgerblue;
+ }
+
